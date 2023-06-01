@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE MERMAIDO ART</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(190, 162, 147);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(104, 87, 79);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(190, 162, 147);
+      }
+
+      .left {
+        font-size: 2rem;
+      }
+      .right {
+        font-size: 1rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 0;
+      }
+      .firstsection > div {
+        width: 40%;
+      }
+
+      .leftsection {
+        width: 30%;
+        font-size: 3rem;
+        margin: 250px 0;
+        align-items: center;
+      }
+      .rightsection {
+        width: 30%;
+        margin-top: 20px;
+      }
+      .secondsection h1 {
+        font-size: 1.5rem;
+      }
+      .brown {
+        color: rgb(104, 87, 79);
+      }
+      #element {
+        color: rgb(104, 87, 79);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        color: rgb(104, 87, 79);
+        height: 40vh;
+      }
+      .text-white {
+        color: aliceblue;
+      }
+      .secondsection .box {
+        background-color: aliceblue;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-attachment: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 50px;
+        position: relative;
+        top: -55px;
+        left: 9px;
+      }
+      hr {
+        background-color: white;
+        height: 1px;
+        border: 0;
+        margin: 30px 80px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 5px;
+        width: 150px;
+      }
+      footer{
+        background-color: rgb(171, 146, 132);
+        height: 100px;
+      }
+
+      .footer {
+        display: flex;
+        padding: 10px 77px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">The Mermaido Art</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Artworks</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hey, this is <span class="brown">Mermaido</span>
+
+          <div>and I am an ARTIST.</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="bg2.jpg" alt style="align-items: center" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-white">The art styles I work with</span>
+        <h1>Types of Artworks</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="studying.png" alt="" />
+            <div class="vertical-title">Portraits</div>
+            <div class="vertical-desc"></div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="studying.png" alt="" />
+            <div class="vertical-title">Landscapes</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="studying.png" alt="" />
+            <div class="vertical-title">Anime</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="studying.png" alt="" />
+            <div class="vertical-title">Still life</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="studying.png" alt="" />
+            <div class="vertical-title">Illustrations</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="studying.png" alt="" />
+            <div class="vertical-title">Fine Art</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first">
+          <h3>Mermaido Artworks</h3>
+        </div>
+        <div class="second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Content</li>
+          </ul>
+        </div>
+        <div class="third"></div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "<i>Acrylic artworks</i>",
+          "<i>Sketches</i>",
+          "<i>Glass paintings</i>",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
