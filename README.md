@@ -1,2 +1,2 @@
-# Beginner level web development projects.
-Projects that help me learn HTML and CSS 
+# Beginner-level web development projects.
+Projects that helped me learn HTML and CSS 
